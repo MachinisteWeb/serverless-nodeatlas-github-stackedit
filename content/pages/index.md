@@ -1,6 +1,6 @@
-# Bienvenue sur notre site web
+# Site web statique
    
-Ceci est un exemple de site web statique hébergé sur GitHub !
+Voici un exemple de site web statique hébergé sur GitHub !
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Njk3MTE5OF19
+eyJoaXN0b3J5IjpbLTE4OTk5ODQ3NzFdfQ==
 -->
