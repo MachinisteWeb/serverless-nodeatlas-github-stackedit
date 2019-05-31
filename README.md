@@ -325,3 +325,7 @@ Nous allons à présent apporter une surcouche JavaScript côté client pour que
    ```
 4. Générer le site en le coupant avec `Ctrl + C` dans l'invité de commande puis lancez la commande `node-atlas --generate` pour le générer dans le dossier racine.   
 5. Mettez à jour les informations de votre machine vers le dépôt (`git commit`)
+6. Testez le raffraichissement en allant changer les contenus des fichiers dans StackEdit.io pour constater que
+   - Le code source n'a pas changé (puisqu'il date de la dernière génération du site avec `node-atlas --generate`)
+   - La page affiche bien le nouveau contenu
+   Note: Il est possible que vous deviez attendre quelques minutes le temps que GitHub mette à jour le cache serveur.
