@@ -1,0 +1,18 @@
+{
+  "name": "serverless-nodeatlas-github-stackedit",
+  "version": "0.1.0",
+  "author": "Bruno Lesieur <bruno.lesieur@gmail.com>",
+  "description": "Exemple de développement d'un site serverless avec NodeAtlas / Github et StackEdit.io.",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Haeresis/serverless-nodeatlas-github-stackedit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Haeresis/serverless-nodeatlas-github-stackedit/issues"
+  },
+  "dependencies": {
+    "marked": "^0.6.2"
+  },
+  "readmeFilename": "README.md"
+}

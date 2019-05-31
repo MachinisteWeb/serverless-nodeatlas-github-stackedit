@@ -1,0 +1,20 @@
+<?- include("partials/head.htm") ?>
+
+	<div class="main">
+		<div class="main--content">
+			<p>
+				<a href="<?= common.menu.href ?>" title="<?= common.menu.title ?>">
+					<?- common.menu.title ?>
+				</a>
+			</p>
+
+			<div class="main--content--title">
+				<?- title ?>
+			</div>
+			<section class="main--content--body">
+				<?- content ?>
+			</section>
+		</div>
+	</div>
+
+<?- include("partials/foot.htm") ?>
