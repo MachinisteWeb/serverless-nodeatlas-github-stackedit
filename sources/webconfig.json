@@ -16,13 +16,15 @@
 		"url": "/index.html",
 		"view": "index.htm",
 		"variation": "index.json",
-		"controller": "index.js"
+		"controller": "index.js",
+   		"_className": "index"
 	}, {
 		"url": "/english/index.html",
 		"view": "index.htm",
 		"variation": "index.json",
 		"controller": "index.js",
-		"languageCode": "en-us"
+		"languageCode": "en-us",
+   		"_className": "index"
 	}, {
 		"url": "/:member([-a-z0-9]+)/:action(voir|creer)/?",
 		"output": false,

@@ -1,3 +1,7 @@
 		</div>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.6.2/marked.min.js"></script>
+		<? if (routeParameters._className) { ?>
+		<script type="text/javascript" src="javascripts/<?- routeParameters._className ?>.js"></script>
+		<? } ?>
 	</body>
 </html>
