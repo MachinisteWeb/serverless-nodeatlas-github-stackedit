@@ -56,7 +56,7 @@ Nous allons ensuite ouvrir ce projet depuis un poste de travail avec Git. Dans c
    ```
 5. Puis mettez à jour les informations de votre machine vers le dépôt (`git commit`)
 
-Vous constaterez en vous rendant sur https://github.com/Haeresis/serverless-nodeatlas-github-stackedit/blob/master/content/pages/index.md que votre fichier est bien rempli.
+Vous constaterez en vous rendant sur https://github.com/MachinisteWeb/serverless-nodeatlas-github-stackedit/blob/master/content/pages/index.md que votre fichier est bien rempli.
 
 
 
@@ -263,9 +263,9 @@ Maintenant que nous avons constater que le site fonctionne en allant chercher le
 ```
 2. Générer le site en le coupant avec `Ctrl + C` dans l'invité de commande puis lancez la commande `node-atlas --generate` pour le générer dans le dossier racine.
 3. Mettez à jour les informations de votre machine vers le dépôt (`git commit`)
-4. Rendez-vous dans les options de votre dépôt GitHub (https://github.com/Haeresis/serverless-nodeatlas-github-stackedit/settings)
+4. Rendez-vous dans les options de votre dépôt GitHub (https://github.com/MachinisteWeb/serverless-nodeatlas-github-stackedit/settings)
 5. Permettez à votre site d'être lu comme un site web en allant dans « GitHub Pages » en passant la sélection de « None » à « master branch ».
-6. Constatez à l'adresse https://haeresis.github.io/serverless-nodeatlas-github-stackedit/index.html que le site fonctionne.
+6. Constatez à l'adresse https://machinisteweb.github.io/serverless-nodeatlas-github-stackedit/index.html que le site fonctionne.
 
 
 
@@ -309,14 +309,14 @@ Nous allons à présent apporter une surcouche JavaScript côté client pour que
    	mainContentTitle = document.getElementsByClassName('main--content--title')[0],
    	mainContentBody = document.getElementsByClassName('main--content--body')[0];
    
-   fetch('https://haeresis.github.io/serverless-nodeatlas-github-stackedit/content/partials/header.md')
+   fetch('https://machinisteweb.github.io/serverless-nodeatlas-github-stackedit/content/partials/header.md')
    .then(function(response) {
    	response.text().then(function (data) {
    		mainContentTitle.innerHTML = marked(data, { renderer: renderer });
    	});
    });
    
-   fetch('https://haeresis.github.io/serverless-nodeatlas-github-stackedit/content/pages/index.md')
+   fetch('https://machinisteweb.github.io/serverless-nodeatlas-github-stackedit/content/pages/index.md')
    .then(function(response) {
    	response.text().then(function (data) {
    		mainContentBody.innerHTML = marked(data, { renderer: renderer });

@@ -6,10 +6,10 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Haeresis/serverless-nodeatlas-github-stackedit.git"
+    "url": "https://github.com/MachinisteWeb/serverless-nodeatlas-github-stackedit.git"
   },
   "bugs": {
-    "url": "https://github.com/Haeresis/serverless-nodeatlas-github-stackedit/issues"
+    "url": "https://github.com/MachinisteWeb/serverless-nodeatlas-github-stackedit/issues"
   },
   "dependencies": {
     "marked": "^0.7.0"
