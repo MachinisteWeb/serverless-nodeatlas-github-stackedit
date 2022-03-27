@@ -12,7 +12,7 @@
     "url": "https://github.com/MachinisteWeb/serverless-nodeatlas-github-stackedit/issues"
   },
   "dependencies": {
-    "marked": "^0.7.0"
+    "marked": "^4.0.10"
   },
   "readmeFilename": "README.md"
 }
